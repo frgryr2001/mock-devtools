@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "skills": {
+    "write-readme": {
+      "source": "remix-run/remix",
+      "sourceType": "github",
+      "skillPath": ".agents/skills/write-readme/SKILL.md",
+      "computedHash": "409a6a8963fa6684b9b6fa4b7ff2311eccfe581bb7390c23ca2c7ca5646808d7"
+    }
+  }
+}

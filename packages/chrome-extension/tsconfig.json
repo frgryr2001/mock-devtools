@@ -1,0 +1,14 @@
+{
+  "extends": "../../tsconfig.base.json",
+  "compilerOptions": {
+    "baseUrl": "../..",
+    "jsx": "react-jsx",
+    "types": ["vitest/globals"],
+    "paths": {
+      "@mock-devtools/browser-runtime": ["packages/browser-runtime/src/index.ts"],
+      "@mock-devtools/core": ["packages/core/src/index.ts"],
+      "@mock-devtools/ui": ["packages/ui/src/index.tsx"]
+    }
+  },
+  "include": ["src"]
+}

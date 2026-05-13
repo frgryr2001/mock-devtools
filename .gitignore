@@ -1,0 +1,12 @@
+node_modules
+dist
+.turbo
+coverage
+playwright-report
+test-results
+release
+!docs/
+!docs/release.md
+.DS_Store
+docs/*
+!docs/release.md
