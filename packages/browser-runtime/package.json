@@ -1,10 +1,13 @@
 {
   "name": "@mock-devtools/browser-runtime",
-  "version": "0.0.0",
-  "private": true,
+  "version": "0.1.0",
   "type": "module",
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
+  "files": [
+    "dist",
+    "README.md"
+  ],
   "exports": {
     ".": {
       "types": "./dist/index.d.ts",
@@ -18,7 +21,7 @@
     "lint": "tsc --noEmit"
   },
   "dependencies": {
-    "@mock-devtools/core": "workspace:*"
+    "@mock-devtools/core": "^0.1.0"
   },
   "devDependencies": {
     "tsdown": "^0.15.7"

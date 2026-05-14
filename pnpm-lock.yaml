@@ -55,7 +55,7 @@ importers:
   packages/browser-runtime:
     dependencies:
       '@mock-devtools/core':
-        specifier: workspace:*
+        specifier: workspace:^
         version: link:../core
     devDependencies:
       tsdown:
@@ -122,10 +122,10 @@ importers:
   packages/ui:
     dependencies:
       '@mock-devtools/browser-runtime':
-        specifier: workspace:*
+        specifier: workspace:^
         version: link:../browser-runtime
       '@mock-devtools/core':
-        specifier: workspace:*
+        specifier: workspace:^
         version: link:../core
       react:
         specifier: ^19.2.3
@@ -162,10 +162,10 @@ importers:
   packages/vite:
     dependencies:
       '@mock-devtools/core':
-        specifier: workspace:*
+        specifier: workspace:^
         version: link:../core
       '@mock-devtools/ui':
-        specifier: workspace:*
+        specifier: workspace:^
         version: link:../ui
     devDependencies:
       tsdown:

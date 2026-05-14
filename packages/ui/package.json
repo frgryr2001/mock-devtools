@@ -1,10 +1,13 @@
 {
   "name": "@mock-devtools/ui",
-  "version": "0.0.0",
-  "private": true,
+  "version": "0.1.0",
   "type": "module",
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
+  "files": [
+    "dist",
+    "README.md"
+  ],
   "exports": {
     ".": {
       "types": "./dist/index.d.ts",
@@ -18,8 +21,8 @@
     "lint": "tsc --noEmit"
   },
   "dependencies": {
-    "@mock-devtools/browser-runtime": "workspace:*",
-    "@mock-devtools/core": "workspace:*",
+    "@mock-devtools/browser-runtime": "^0.1.0",
+    "@mock-devtools/core": "^0.1.0",
     "react": "^19.2.3",
     "react-dom": "^19.2.3"
   },
