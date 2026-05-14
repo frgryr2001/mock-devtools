@@ -22,8 +22,6 @@ For a Vite app:
 pnpm add -D @mock-devtools/vite
 ```
 
-This repository is still a workspace package while it is being prepared for release. The npm package names are reserved in the package manifests, but publishing requires removing `private: true` and choosing a real version.
-
 ## Usage
 
 Add the Vite plugin to your app. In most cases you only want it during development:
@@ -54,7 +52,9 @@ Start your app and open the `Mock` button in the corner. Add a route, turn mocki
 
 You can also use Mock DevTools as an unpacked local Chrome extension.
 
-Build the extension:
+Download the latest release from [GitHub Releases](https://github.com/frgryr2001/mock-devtools/releases/latest).
+
+Or build it yourself:
 
 ```sh
 pnpm --filter @mock-devtools/chrome-extension build
@@ -233,4 +233,4 @@ Keep `@mock-devtools/chrome-extension` private unless you later package it speci
 
 ## License
 
-No license file is currently included in this repository.
+[MIT](./LICENSE) © 2026 Hoang Nhan
